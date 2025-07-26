@@ -19,13 +19,14 @@ const projects = [
     url: '/case-studies/aux/',
   },
   {
-    id: 'eyc',
-    title: 'Embrace Your Crown',
+    id: 'atm',
+    title: 'Answer the Moment',
     description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
+    imageUrl: './images/atm/atm.png',
     fit: 'cover',
-    color: '#f1ce71',
-    url: '/case-studies/eyc/',
+    url: '/case-studies/atm/',
   },
+  
 ];
 
 const Projects = () => {

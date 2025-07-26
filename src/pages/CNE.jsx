@@ -1,6 +1,8 @@
 import React from 'react';
-import Device from '../components/Device.jsx';
+import Device from '../components/devices/Device.jsx';
 import Nav from '../components/Nav.jsx';
+import EmblaCarousel from '../components/carousel/Carousel.jsx';
+import CarouselSlide from '../components/carousel/CarouselSlide.jsx';
 
 export default function CNE() {
   const features = [
@@ -46,7 +48,7 @@ export default function CNE() {
           {/* Right column */}
           <div className="bg-indigo-100 md:col-span-2">
             <div className="p-16 flex justify-center  items-center h-full min-h-[300px]">
-              <p>Maybe a picture here?</p>
+              <img src="/images/cne/cne.png"  alt="cne"/>
             </div>
           </div>
         </div>
@@ -79,12 +81,12 @@ export default function CNE() {
         </div>
       </div>
 
-      <div className="bg-gray-50">
+      <div className="bg-green-100">
         <div className="panel">
           <section className="two-column-layout">
-            <div className="bg-gray-200">
-              <div className="p-16 flex justify-center  items-center h-full min-h-[300px]">
-                <p>Maybe a picture here?</p>
+            <div className="bg-gray-00">
+              <div className="p-15 flex justify-center  items-center h-full min-h-[400px]">
+                <img className="m-auto" src="/images/cne/desktop/ccap.png"  />
               </div>
             </div>
             <dl className="mt-10 space-y-8 text-gray-900">
@@ -142,25 +144,36 @@ export default function CNE() {
             <Device
               width="200px"
               className="top-[-30px]"
-              imageUrl="/images/cne/mobile/programs-overview.png"
-            />
+              imageUrl="/images/cne/mobile/programs-overview.png" />
           </div>
         </div>
       </section>
 
       {/* Section 3 */}
       <section style={{ backgroundImage: 'linear-gradient(90deg, #bce2f6, #e8def1)' }}>
-        <div className="panel max-w-4xl m-auto">
+        <div className="panel max-w-3xl m-auto">
           <h2 className="text-3xl font-abril mb-6 text-gray-900">Programs</h2>
-          <p className="text-lg text-gray-900 mb-12">
+          <p className="text-lg text-gray-900 mb-20">
             To help parents and caregivers understand the importance of early childhood education,
             we created a simple program overview page, organized by age group. This page provides a
             clear and accessible explanation of CNE's various programs, including home visits,
             developmental screenings, childcare providers and supports, and more.
           </p>
-          <img className="w-full" src="/images/cne/desktop/programs.png" alt="Programs" />
+          <img className="m-auto" src="/images/cne/desktop/cne-child.jpg" alt="Programs" />
         </div>
       </section>
+      <EmblaCarousel>
+        <CarouselSlide className="p-8 ">
+          <img className="m-auto" src="/images/cne/desktop/home.png" alt="cne" />
+        </CarouselSlide>
+        <CarouselSlide className="p-8">
+          <img className="m-auto" src="/images/cne/desktop/programs.png" alt="cne" />
+        </CarouselSlide>
+
+        <CarouselSlide className="p-8">
+          <img className="m-auto" src="/images/cne/desktop/headstart.png" alt="cne" />
+        </CarouselSlide>
+      </EmblaCarousel>
     </>
   );
 }

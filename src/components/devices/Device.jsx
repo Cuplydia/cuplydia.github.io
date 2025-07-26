@@ -135,7 +135,7 @@ const Device = ({ imageUrl, width, className = '', deviceType = 'iphone' }) => {
         ref={screenshotRef}
         src={imageUrl}
         alt="Device screenshot"
-        className="screenshot"
+        className="screenshot !h-full"
         onMouseDown={startImageDragging}
         onTouchStart={(e) => startImageDragging(e.touches[0])}
       />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Nav({ isHome = false }) {
+export default function NavHome({ isHome = false }) {
   return (
     <nav
       className={
@@ -24,19 +24,19 @@ export default function Nav({ isHome = false }) {
           <div className="flex items-center">
             <Link
               to="/bio/"
-              className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              className="text-white hover:text-purple-300 px-3 py-2 rounded-md text-sm font-medium"
             >
               About Me
             </Link>
             <Link
               to="/case-studies/"
-              className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              className="text-white hover:text-purple-300 px-3 py-2 rounded-md text-sm font-medium"
             >
               My Work
             </Link>
             <Link
               to="/tips/"
-              className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              className="text-white hover:text-purple-300 px-3 py-2 rounded-md text-sm font-medium"
             >
               Tips
             </Link>
