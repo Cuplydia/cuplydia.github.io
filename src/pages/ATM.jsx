@@ -43,8 +43,9 @@ export default function ATM() {
           </div>
           
           {/* Right column */}
-          <div className=" p-12 flex justify-center  items-center h-full min-h-[100px]">
-            <Device width={350} imageUrl="/images/atm/stairs.jpg" alt="atm" />
+          <div className=" p-12 flex justify-center  items-center h-full min-h-[200px]">
+            <Device width={400} imageUrl="/images/atm/stairs.jpg" alt="atm" />
+            
             </div>
         </div>
       </section>
