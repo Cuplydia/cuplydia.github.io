@@ -12,12 +12,12 @@ export default function CNE() {
     },
     {
       name: 'My Role',
-      description: 'Web Developer',
+      description: 'Lead UX Deisgner',
     },
     {
       name: 'The Team',
       description:
-        '6 Developers, 3 UX Designers, 1 UX Researcher, 1 Brand Designer, 1 Project Manager',
+        '6 Developers, 4 UX Designers, 1 UX Researcher, 1 Brand Designer, 1 Project Manager',
     },
     {
       name: 'The Product',
@@ -26,11 +26,11 @@ export default function CNE() {
     },
     {
       name: 'Project Duration',
-      description: '6 months',
+      description: '6 months, 10 hours per week',
     },
     {
       name: 'Technologies Used',
-      description: 'Figma, Relume, Webflow CMS',
+      description: 'Figma, Relume, Webflow CMS, ChatGpt, Wireframing and prototyping',
     },
   ];
   return (
@@ -61,20 +61,21 @@ export default function CNE() {
             <div>
               <h2 className="h2-small">The Challenge</h2>
               <p className="text-lg">
-                The Childcare Network of Evanston wanted to refresh their online presence and
-                improve the site's information organization. Some specific needs included making the
-                site easier to update and customize, improving navigation and usability, and
-                implementing accessibility features and a mobile-friendly, responsive design.
+                The previous CNE website had a barrier for families seeking vital resources and information 
+                about programs in the Evanston community. 
+                 With its outdated design, confusing layout, and lack of mobile optimzation, many visitors 
+                 were unable to find the help they needed.  
+                 This has resulted in missed opportunities for CNE families to access the support and services
+                 they deserve.
               </p>
             </div>
             <div>
               <h2 className="h2-small">The Goal</h2>
               <p className="text-lg">
-                The website redesign aimed to create a user-friendly, modern, and engaging site
-                where users could easily find relevant resources. This included helping parents
-                access quality, affordable early childhood education; and keeping the community
-                up-to-date about CNE events and initiatives. CNE also wanted an easy, intuitive way
-                to update content while maintaining a consistent look and feel.
+                The main objective of the website redesign for the Children Network of Evanston is to enhance user 
+                experience, improve accessibility, and boost outreach by creating a more user-friendly interface and
+                enriching content.”
+
               </p>
             </div>
           </section>
@@ -131,11 +132,9 @@ export default function CNE() {
           <div>
             <h2 className="text-3xl font-abril mb-6 text-gray-900">Impact & Program Pages</h2>
             <p className="text-lg text-gray-900">
-              This page highlights CNE's impactful role as a leader in early childhood education. It
-              shows their dedication to providing every child with a Strong Start to Kindergarten
-              through initiatives like home visits, developmental screenings, and trauma-informed
-              care.
-            </p>
+              The redesigned CNE website offers a more robust, responsive experience with simplified user navigation, 
+              preserving the brand’s identity and colors.  Through comparative audits and refined user flows, the site 
+              enhances usability and ensures a seamless, consistent experience across devices.</p>
           </div>
 
           {/* Right column */}
@@ -152,28 +151,46 @@ export default function CNE() {
       {/* Section 3 */}
       <section style={{ backgroundImage: 'linear-gradient(90deg, #bce2f6, #e8def1)' }}>
         <div className="panel max-w-3xl m-auto">
-          <h2 className="text-3xl font-abril mb-6 text-gray-900">Programs</h2>
+          <h2 className="text-3xl font-abril mb-10 text-gray-900">Programs</h2>
           <p className="text-lg text-gray-900 mb-20">
             To help parents and caregivers understand the importance of early childhood education,
             we created a simple program overview page, organized by age group. This page provides a
             clear and accessible explanation of CNE's various programs, including home visits,
             developmental screenings, childcare providers and supports, and more.
           </p>
-          <img className="m-auto" src="/images/cne/desktop/cne-child.jpg" alt="Programs" />
+          <img className="m-20" src="/images/cne/desktop/headstart.png" alt="Programs" />
         </div>
       </section>
-      <EmblaCarousel>
-        <CarouselSlide className="p-8 ">
-          <img className="m-auto" src="/images/cne/desktop/home.png" alt="cne" />
-        </CarouselSlide>
-        <CarouselSlide className="p-8">
-          <img className="m-auto" src="/images/cne/desktop/programs.png" alt="cne" />
-        </CarouselSlide>
-
-        <CarouselSlide className="p-8">
-          <img className="m-auto" src="/images/cne/desktop/headstart.png" alt="cne" />
-        </CarouselSlide>
-      </EmblaCarousel>
+      <section className="bg-[#7087b3]">
+        <div className="panel two-column-layout grid-cols-2">
+          <div>
+           
+            <img className=" p-10" src="/images/cne/desktop/image 81.png " alt="cne" />
+            <img className=" p-10" src="/images/cne/desktop/image 79.png " alt="cne" />
+            <img className=" p-10" src="/images/cne/desktop/image 78.png " alt="cne" />
+            <img className=" p-10" src="/images/cne/desktop/image 1.png " alt="cne" />
+            <img className=" p-10" src="/images/cne/desktop/image 48.png " alt="cne" />
+          </div>
+          <div>
+             <h2 className="mb-6">CNE Prototype</h2>
+            <p>Placeholder text</p>
+          </div>
+        </div>
+      </section>
+       {/* Section 3 */}
+      <section style={{ backgroundImage: 'linear-gradient(0deg, #d4f37eff, #a4c47bff)' }}>
+        <div className="panel max-w-5xl m-25">
+          <h2 className="text-5xl font-abril mb-20 text-gray-900">Reflection</h2>
+          <p className="text-lg text-gray-900 mb-20">
+           Throughout this project, I gained a deeper undeerstanding of the importance of comparative audits 
+           and accessibility in web design, which are essential for creating inclusing and user-friendly experiences.  
+           I also learned to effectively use design tools such as Figma, Relume, and Webflor, applying my knowledge to 
+           create both low and high-fidelity wireframes that accurately represent the site’s layout.
+ 
+          </p>
+        </div>
+      </section>
     </>
+    
   );
 }

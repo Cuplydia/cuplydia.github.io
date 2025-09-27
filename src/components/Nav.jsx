@@ -16,7 +16,7 @@ export default function Nav({ isHome = false }) {
                 ''
               ) : (
                 <Link to="/" className="text-2xl font-abril">
-                  Anita Perkins
+                  Home
                 </Link>
               )}
             </div>
@@ -38,7 +38,7 @@ export default function Nav({ isHome = false }) {
               to="/tips/"
               className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
             >
-              Tips
+              Resume
             </Link>
           </div>
         </div>

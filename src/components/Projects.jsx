@@ -1,28 +1,30 @@
 import React from 'react';
 import HoverCard from './HoverCard';
+import useEmblaCarousel from 'embla-carousel-react';
 
 const projects = [
+  
   {
     id: 'cne',
     title: 'Childcare Network of Evanston',
-    description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
-    imageUrl: './images/cne/cne-removebg-preview.png',
+    description: 'Provides high-quality early education and childcare.',
+    imageUrl: './images/cne/cne-removebg-preview 3.png',
     color: '#54b2dd',
     url: '/case-studies/cne/',
   },
   {
     id: 'aux',
     title: 'The AUX',
-    description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
-    imageUrl: './images/the-aux/the-aux.jpg',
+    description: 'A dynamic community--centered wellness hub.',
+    imageUrl: './images/the-aux/the-aux 3.png',
     fit: 'cover',
     url: '/case-studies/aux/',
   },
   {
     id: 'atm',
     title: 'Answer the Moment',
-    description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
-    imageUrl: './images/atm/atm.png',
+    description: 'Empowering leaders to be genuine, effective, and responsive to the challenges and opportunities before them.',
+    imageUrl: './images/atm/atm1 2.png ',
     fit: 'cover',
     url: '/case-studies/atm/',
   },
@@ -30,9 +32,10 @@ const projects = [
 ];
 
 const Projects = () => {
-  return (
-    <div className="panel">
-      <h2 className="mb-12">Projects</h2>
+   return (
+    <div className="bg-[url(/images/whitegradient.jpg)] h-[1200px] bg-cover">
+    <div className="panel p-10 mb-10"> 
+      <h2 className="mb-10">Projects</h2>
       <div className="projects-grid">
         {projects.map((card, index) => (
           <div key={index}>
@@ -46,17 +49,18 @@ const Projects = () => {
               index={index}
             >
               <>
-                <h3 className="font-comfortaa mb-2 text-xl font-bold text-gray-900">
+                <h3 className="font-comfortaa mb-2 text-xl font-bold text-black-1000">
                   {card.title}
                 </h3>
-                <p className="text-gray-600 transition-colors duration-300 group-hover:text-gray-800">
+                <p className="text-purple-900 font-bold transition-colors duration-500 group-hover:text-blue-800">
                   {card.description}
                 </p>
               </>
             </HoverCard>
-          </div>
+            </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

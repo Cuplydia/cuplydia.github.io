@@ -9,30 +9,34 @@ export default function Home() {
       <NavHome isHome={true} />
 
       {/* Top Banner */}
-      <div className="bg-[url(/images/bluelight.jpg)] bg-bottom h-[500px]">
+      <div className="bg-[url(/images/aportfolio.png)] bg-bottom h-[700px] bg-cover">
         <div className="panel">
-          <h1 className="text-center text-white">Anita Perkins</h1>
-          <p className="body-text-large max-w-2xl mx-auto text-center text-white">
+           <Image width={200}  src="/images/Anita Perkins 1.png" /> 
+         <h1 className="text-center text-black">Anita Perkins</h1>
+        
+         <p className="body-text-large max-w-4xl mx-auto text-center text-black font-bold">
             "I design websites to fit your business needs".
-          </p>
+            </p>
            <MyDrawer /> 
         </div>
       </div>
 
       {/* About Section */}
-      <div className="panel">
+      <div className="bg-[url(/images.jpg)]">
+         <div className="panel p-30"> 
         <h2>About Me</h2>
-        <Image width={250} src="/images/Anita Perkins.jpg"  /> 
-        
-        <p className="body-text-large">
+        <p className="body-text-large font-bold">
           As a dedicated web design enthusiast, I have cultivated a profound passion for crafting captivating digital
           experiences that resonate with users. With a relentless drive to stay at the forefront of technological advancements
           and design trends, I continuously strive to elevate my skills and expertise in the dynamic realm of web development.
         </p>
-        
+       </div> 
       </div>
 
       <Projects />
-    </>
+       <div className="panel p-20">
+         </div>
+      </>
+    
   );
 }
