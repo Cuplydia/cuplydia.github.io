@@ -38,8 +38,7 @@ export default function NavHome({ isHome = false }) {
               to="/tips/"
               className="text-purple hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium"
             >
-              Resume
-            </Link>
+           </Link>
           </div>
         </div>
       </div>
