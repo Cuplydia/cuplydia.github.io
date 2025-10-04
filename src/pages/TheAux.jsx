@@ -98,13 +98,16 @@ export default function AUX() {
               As Lead Designer for The Aux website, I directed a cross-functional design team
               through every phase of the project—from discovery to launch—with the goal of building
               a responsive, user-centered platform that embodied the organization’s mission and
-              community. I guided audience research, stakeholder interviews, and competitive
-              analysis to shape our design approach. Leading collaborative sprints, I oversaw the
-              creation of low and high-fidelity prototypes, restructured the site architecture, and
-              streamlined messaging. Using WordPress and a unified style guide, I managed
-              development and led multiple design iterations driven by client feedback, ultimately
-              delivering an accessible, polished site that elevated both brand presence and user
-              experience.
+              community.
+            </p>
+
+            <p>
+              I guided audience research, stakeholder interviews, and competitive analysis to shape
+              our design approach. Leading collaborative sprints, I oversaw the creation of low and
+              high-fidelity prototypes, restructured the site architecture, and streamlined
+              messaging. Using WordPress and a unified style guide, I managed development and led
+              multiple design iterations driven by client feedback, ultimately delivering an
+              accessible, polished site that elevated both brand presence and user experience.
             </p>
             <dl className="mt-10 space-y-8 text-gray-900">
               {features.map((feature) => (
@@ -123,56 +126,178 @@ export default function AUX() {
       <section className="bg-[#b7ca64]">
         <div className="panel two-column-layout">
           <div>
-           
             <img className=" w-full" src="/images/the-aux/tenants.png " alt="the-aux" />
           </div>
           <div>
-             <h2 className="mb-6">The Aux Tenant Page Redesign</h2>
-             <h3><b>Challenge</b></h3>
+            <h2 className="mb-6">The Aux Tenant Page Redesign</h2>
+            <h3>
+              <b>Challenge</b>
+            </h3>
+            <p>
+              The main challenge was to refresh the Tenant Page without duplicating existing
+              content. The goal was to highlight the individuality, talents, and contributions of
+              each tenant while creating a stronger sense of community and brand cohesion.
+            </p>
 
-              <p>The main challenge was to refresh the Tenant Page without duplicating existing content. The goal was 
-              to highlight the individuality, talents, and contributions of each tenant while creating a stronger sense 
-              of community and brand cohesion.</p>
+            <h3>
+              <b>Planning & Discovery</b>
+            </h3>
+            <p>
+              I began by identifying the target audience and clarifying their needs through
+              research, competitive analysis, and client interviews. Key objectives included:
+            </p>
 
-              <h3><b>Planning & Discovery</b></h3>
-              <p>I began by identifying the target audience and clarifying their needs through research, competitive analysis, 
-                and client interviews. Key objectives included:</p>
+            <ul>
+              <li>
+                <small>Clarifying tenant messaging (who they are, what they do).</small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>Conveying a sense of power, excellence, and excitement.</small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>C. Showcasing the Aux’s tenants in a dynamic, engaging way.</small>
+              </li>
+            </ul>
 
+            <h3>
+              <b>Methods</b>
+            </h3>
+            <ul>
+              <li>
+                <small>
+                  Audited the existing Aux site and comparable sites (e.g., The Phoenix in
+                  Milwaukee).
+                </small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>Reviewed marketing materials, articles, and social media.</small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>Conducted structured interviews and needs assessments.</small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>Compiled and prioritized requirements based on client feedback.</small>
+              </li>
+            </ul>
 
-              <ul><small>A. 	 Clarifying tenant messaging (who they are, what they do).</small></ul>
-              <ul><small>B.  	 Conveying a sense of power, excellence, and excitement. </small></ul>
-              <ul><small>C. 	 Showcasing the Aux’s tenants in a dynamic, engaging way.</small></ul>
+            <h3>
+              <b>Design Process</b>
+            </h3>
+            <p>I led the design process from low-fidelity sketches to high-fidelity prototypes.</p>
+            <ul>
+              <li>
+                <small>
+                  Low-Fidelity: Used Google Slides for early brainstorming and rapid iteration.
+                </small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>
+                  High-Fidelity: Developed prototypes in Figma and implemented designs in WordPress
+                  with Elementor and complementary widgets.
+                </small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>Ensured alignment with brand style guide and messaging.</small>
+              </li>
+            </ul>
+            <h3>
+              <b>Tools & Skills:</b>{' '}
+            </h3>
+            <ul>
+              <li>
+                <small>
+                  Figma, Google Slides, WordPress (Elementor, ElementsKit), Trello, Slack, stock
+                  image curation, copy simplification, and style guide development.
+                </small>
+              </li>
+            </ul>
+            <h3>
+              <b>Development</b>
+            </h3>
+            <ul>
+              <li>
+                <small>Designed site architecture and user flow.</small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>
+                  Implemented WordPress site structure, templates, and custom tenant profiles.
+                </small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>Optimized content for scanning (shortened text, curated visuals).</small>
+              </li>
+            </ul>
+            <h3>
+              <b>Iteration & Evaluation</b>
+            </h3>
+            <ul>
+              <li>
+                <small>V1: Positive feedback on structure; client requested more vibrancy.</small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>
+                  V2: Redesign added color, restructured News page, introduced a fundraising
+                  thermometer, and refreshed content.
+                </small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>
+                  V3: Final refinements based on dislikes and preferences, underscoring the
+                  importance of feedback-driven design.
+                </small>
+              </li>
+            </ul>
 
-              <h3><b>Methods</b></h3>
-              <ul><small>A.  	 	Audited the existing Aux site and comparable sites (e.g., The Phoenix in Milwaukee).</small></ul>
-              <ul><small>B.  	 	Reviewed marketing materials, articles, and social media.</small></ul>
-              <ul><small>C. 	  Conducted structured interviews and needs assessments.</small></ul>
-              <ul><small>D.  	  Compiled and prioritized requirements based on client feedback.</small></ul>
-
-              <h3><b>Design Process</b></h3>
-              <p>I led the design process from low-fidelity sketches to high-fidelity prototypes.</p>
-              <ul><small>A.  	 	Low-Fidelity: Used Google Slides for early brainstorming and rapid iteration.</small></ul>
-              <ul><smalL>B. 	  High-Fidelity: Developed prototypes in Figma and implemented designs in WordPress with Elementor and complementary widgets.</smalL></ul>
-              <ul><smalL>C. 	  Ensured alignment with brand style guide and messaging.</smalL></ul>
-              <p><b>Tools & Skills:</b> <small>Figma, Google Slides, WordPress (Elementor, ElementsKit), Trello, Slack, stock image curation, copy simplification, and style guide development.</small></p>
-
-              <h3><b>Development</b></h3>
-              <ul><small>A.  	 	Designed site architecture and user flow.</small></ul>
-              <ul><smalL>B. 		Implemented WordPress site structure, templates, and custom tenant profiles.</smalL></ul>
-              <ul><smalL>C. 		Optimized content for scanning (shortened text, curated visuals).</smalL></ul> 
-              
-              <h3><b>Iteration & Evaluation</b></h3>
-              <ul><small>A.  	 	 V1: Positive feedback on structure; client requested more vibrancy.</small></ul>
-              <ul><small>B.  	 	 V2: Redesign added color, restructured News page, introduced a fundraising thermometer, and refreshed content.</small></ul>
-              <ul><small>C. 		 V3: Final refinements based on dislikes and preferences, underscoring the importance of feedback-driven design.</small></ul>
-
-              <h3><b>Deployment & Handoff</b></h3>
-              <ul><small>A.  	 	 Deployed live site via GoDaddy hosting with SSL, firewalls, and backup systems.</small></ul>
-              <ul><smalL>B. 		 Offloaded images to cloud hosting for performance optimization.</smalL></ul>
-              <ul><smalL>C. 		 Created training videos and documentation for client independence.</smalL></ul>
-              <ul><smalL>D. 		 Delivered a tailored maintenance plan for long-term site management.</smalL></ul>
-
-        </div> 
+            <h3>
+              <b>Deployment & Handoff</b>
+            </h3>
+            <ul>
+              <li>
+                <small>
+                  Deployed live site via GoDaddy hosting with SSL, firewalls, and backup systems.
+                </small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>Offloaded images to cloud hosting for performance optimization.</small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>Created training videos and documentation for client independence.</small>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <small>
+                  D. Delivered a tailored maintenance plan for long-term site management.
+                </small>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section>

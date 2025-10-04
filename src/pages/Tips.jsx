@@ -8,56 +8,40 @@ export default function Resume() {
       <Nav />
       <section className="panel">
          <div className="bg-[url(/images/)] bg-bottom h-[700px] bg-cover">
-       <h2>Resume</h2>
+       <h2></h2>
         
-        <h3 className="h3-underlined">CNE</h3>
-        
-          <h3>Concept</h3>
+        <h3 className="h3-underlined"></h3>
+        <p>.</p>
+
+          <h3></h3>
+          <h4></h4>
+          <h4></h4>
           <ul>
-          <li>
-            <Laptop width="80%" imageUrl="./images/cne/desktop/image 81.png" />
-            Rename your repo to <code>your-github-username.github.io</code>
-          </li>
-          <li>Turn on GitHub Pages</li>
-          <li>
-            <Laptop width="80%" imageUrl="./images/cne/desktop/image 78.png" /> 
-            On your local computer, open a brand new VS Code window. Click on the version control
-            tab on the left-hand side (it looks like a branch).
+          <li></li>
+          <li></li>
+          <li>      
           </li>
           <li>
-             <Laptop width="80%" imageUrl="./images/cne/desktop/image 79.png" />
-            Click on the "clone repository" button. It should prompt you to log in. Pick the
-            repository you want to clone.
+             
           </li>
-          <li>VERY CAREFULLY, select the folder where you would like to store your portfolio.</li>
-          <li>Once that's done, open your integrated terminal in VS Code</li>
+          <li></li>
+          <li></li>
+          
+          
           <li>
-             <Laptop width="80%" imageUrl="./images/cne/desktop/image 1.png" />
-            Install the dependencies: <br />
-            <code>
-              cd portfolio
-              <br />
-              npm install
-            </code>
-          </li>
-          <li>
-             <Laptop width="80%" imageUrl="./images/cne/desktop/image 48.png" />
-            Run the development server: <br />
-            <code>npm run dev</code>
+             
           </li>
         </ul>
         <p className="body-text">
-          Note that because this is a React App, you will have to navigate to your portfolio on the
-          command line and run <code>npm run dev</code> in order to see your changes in the browser.
+          
         </p>
         <section className="bg-[#F0F0F0]">
-        <h3 className="h3-underlined">The Aux Case Study</h3>
-        <p className="body-text">Concept:  To transform the Tenants Page into a visually compelling and 
-          community-driven space that highlights the unique identity of each business. and tools like Figma and WordPress to enhance user engagement and foster a sense of connection.</p>
-        <Laptop width="80%" imageUrl="./images/the-aux/tenants.png" />
-         <li>Turn on GitHub Pages</li>
-          <li>Used UX design 
-          principles </li>
+        <h3 className="h3-underlined"></h3>
+        <p className="body-text"></p>
+        
+         <li></li>
+          <li>
+           </li>
        
         <p className="body-text">
          
@@ -67,60 +51,30 @@ export default function Resume() {
        
         
         
-        <h3 className="h3-underlined">ATM Case Study</h3>
+        <h3 className="h3-underlined"></h3>
         <p className="body-text">
-          You've already done a ton of work on the portfolios. Please review the work you've already
-          done and incorporate the text, notes, and images you've already written:
+          
         </p>
         <ul>
-          <li>Use "I" statements and strong action verbs for the work that you did.</li>
+          <li></li>
           <li>
-            <a
-              className="link-highlight"
-              href="https://docs.google.com/document/d/16VYRdQNUN-sj2xRtOgsBOM7L-l5-qtN_frbHS4Sm-Gc/edit?tab=t.0#heading=h.n6p4t07y3g2w"
-              target="_blank"
-            >
-              Everyone's Bios
-            </a>
+           
           </li>
           <li>
-            <a
-              className="link-highlight"
-              href="https://drive.google.com/drive/u/1/folders/1hnWrpHz3Jgo7aemEpWTppmd2h_a5-LBf"
-              target="_blank"
-            >
-              Case Study (Google Slides)
-            </a>
+           
           </li>
           <li>
-            <a
-              className="link-highlight"
-              href="https://docs.google.com/spreadsheets/d/1lz_a0_cAMXsJCYw1dX8i5GjUDoGM1rt4oNR27M8jRGo/edit?gid=0#gid=0"
-              target="_blank"
-            >
-              Examples of other case studies
-            </a>
+            
           </li>
           <li>
-            <a
-              className="link-highlight"
-              href="https://docs.google.com/presentation/d/1KGZ5IQGQ1-RL5s-ooUUNMmjTB4Yt1f3z1m4YlsiXfH0/edit?slide=id.p#slide=id.p"
-              target="_blank"
-            >
-              Visual design 101: How to develop your own look and feel while following best design
-              practices.
-            </a>
+            
           </li>
           <li>
-            <a
-              className="link-highlight"
-              href="https://docs.google.com/presentation/d/1f-tours2Cer9_UUTwNX6jyk17LYqbu1PUSugN0K2pxg/edit?usp=sharing"
-              target="_blank"
-            >
+            
               AUX Presentation to Advisory Board
-            </a>
+            
           </li>
-          <li>EYC Presentation to Advisory Board: I can't access this one.</li>
+         
         </ul>
         </div>
       </section>
