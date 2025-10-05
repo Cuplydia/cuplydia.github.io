@@ -51,7 +51,7 @@ const MyDrawer = () => {
           </li>
          </ul>
         <a className="text-xl mt-8 mb-2 font-bold text-black bg-blue-200"
-              href="A Perkins.pdf">Resume</a>
+              href="resume.html">Resume</a>
       
          
        
