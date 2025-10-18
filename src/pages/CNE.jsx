@@ -162,7 +162,7 @@ export default function CNE() {
           <img className="m-20" src="/images/cne/desktop/headstart.png" alt="Programs" />
         </div>
       </section>
-      <section className="bg-[#7087b3]">
+      <section className="bg-[#92a4c5]">
         <div className="panel two-column-layout grid-cols-2">
           <div>
             <img className=" p-10" src="/images/cne/desktop/image 81.png " alt="cne" />
