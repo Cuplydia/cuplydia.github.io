@@ -24,13 +24,13 @@ export default function NavHome({ isHome = false }) {
           <div className="flex items-center">
             <Link
               to="/bio/"
-              className="text-purple hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium"
+              className="text-purple hover:text-blue-400 px-3 py-2 rounded-md text-sm font-bold"
             >
               About Me
             </Link>
             <Link
               to="/case-studies/"
-              className="text-purple hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium"
+              className="text-purple hover:text-blue-400 px-3 py-2 rounded-md text-sm font-bold"
             >
               My Work
             </Link>

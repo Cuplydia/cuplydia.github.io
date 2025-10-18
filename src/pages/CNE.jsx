@@ -8,7 +8,7 @@ export default function CNE() {
   const features = [
     {
       name: 'Deliverable',
-      description: 'Web Application',
+      description: 'Website',
     },
     {
       name: 'My Role',

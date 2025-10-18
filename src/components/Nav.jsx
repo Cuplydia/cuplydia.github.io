@@ -5,7 +5,7 @@ export default function Nav({ isHome = false }) {
   return (
     <nav
       className={
-        isHome ? 'bg-transparent absolute top-0 left-0 right-0 z-50' : 'bg-white shadow-sm'
+        isHome ? 'bg-transparent absolute top-0 left-0 right-0 z-50' : 'bg-gray-100 shadow-sm'
       }
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,19 +24,19 @@ export default function Nav({ isHome = false }) {
           <div className="flex items-center">
             <Link
               to="/bio/"
-              className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-600 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-bold bg-white"
             >
               About Me
             </Link>
             <Link
               to="/case-studies/"
-              className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-600 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-bold bg-white"
             >
               My Work
             </Link>
             <Link
               to="/tips/"
-              className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium "
             >
               
             </Link>
