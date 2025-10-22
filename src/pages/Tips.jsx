@@ -9,7 +9,7 @@ export default function Resume() {
       <section className="panel">
         
         <div className="bg-[url(/images/whitegradient.jpg)]">
-          <h2>Resume / Portfolio Tips</h2>
+          <h2>Resume</h2>
           <ul>
             <li><a
               href="A Perkins.pdf">Resume</a></li>

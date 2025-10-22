@@ -3,6 +3,7 @@ import Device from '../components/devices/Device.jsx';
 import Nav from '../components/Nav.jsx';
 import EmblaCarousel from '../components/carousel/Carousel.jsx';
 import CarouselSlide from '../components/carousel/CarouselSlide.jsx';
+import { Link } from 'react-router-dom';
 
 export default function CNE() {
   const features = [
@@ -251,10 +252,9 @@ export default function CNE() {
               <ul>
                 <li>
                   <small>
-                    The user flow of the page begins with the user landing on a clear,
-                    informative header outlining CNE's mission. They scroll down to explore the
-                    initiative's key goals, followed by featured programs that highlight CNE's
-                    impact.
+                    The user flow of the page begins with the user landing on a clear, informative
+                    header outlining CNE's mission. They scroll down to explore the initiative's key
+                    goals, followed by featured programs that highlight CNE's impact.
                   </small>
                 </li>
               </ul>
@@ -284,8 +284,8 @@ export default function CNE() {
               <ul>
                 <li>
                   <small>
-                    High-Fidelity: Developed prototypes in Figma and implemented designs in
-                    WebFlow Figma, UI Design Tool.
+                    High-Fidelity: Developed prototypes in Figma and implemented designs in WebFlow
+                    Figma, UI Design Tool.
                   </small>
                 </li>
               </ul>
@@ -313,15 +313,15 @@ export default function CNE() {
               <ul>
                 <li>
                   <small>
-                    Keyboard Navigation: Designed all interactive elements to be fully navigable
-                    via keyword, with clear focus indicators for users who cannot use a mouse.
+                    Keyboard Navigation: Designed all interactive elements to be fully navigable via
+                    keyword, with clear focus indicators for users who cannot use a mouse.
                   </small>
                 </li>
               </ul>
               <ul>
                 <li>
                   <small>
-                     Alt Text for Images: Provided descriptive alternative text for all images and
+                    Alt Text for Images: Provided descriptive alternative text for all images and
                     multimedia so screen readers can convey visual information to visually impaired
                     users.
                   </small>
@@ -352,6 +352,14 @@ export default function CNE() {
             such as Figma, Relume, and Webflor, applying my knowledge to create both low and
             high-fidelity wireframes that accurately represent the site’s layout.
           </p>
+        </div>
+        <div className="flex items-center">
+          <Link
+            to="/case-studies/aux/"
+            className="text-gray-600 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-black bg-white-100"
+          >
+            Next:  The Aux
+          </Link>
         </div>
       </section>
     </>

@@ -24,7 +24,7 @@ const projects = [
     id: 'atm',
     title: 'Answer the Moment',
     description: 'Empowering leaders to be genuine, effective, and responsive to the challenges and opportunities before them.',
-    imageUrl: './images/atm/atm1 2.png ',
+    imageUrl: './images/atm/atm1 2.png',
     fit: 'cover',
     url: '/case-studies/atm/',
   },

@@ -3,6 +3,7 @@ import Device from '../components/devices/Device.jsx';
 import Nav from '../components/Nav.jsx';
 import EmblaCarousel from '../components/carousel/Carousel.jsx';
 import CarouselSlide from '../components/carousel/CarouselSlide.jsx';
+import { Link } from 'react-router-dom';
 
 export default function ATM() {
   const features = [
@@ -538,6 +539,14 @@ export default function ATM() {
             final site communicates her vision clearly and connects with clients who are ready to
             engage in real, lasting change.
           </p>
+        </div>
+        <div className="flex items-center">
+          <Link
+            to="/case-studies/cne/"
+            className="text-gray-600 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-black bg-white-100"
+          >
+            Next:  Childcare Network of Evanston
+          </Link>
         </div>
       </section>
     </>

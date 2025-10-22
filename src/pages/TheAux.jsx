@@ -3,6 +3,7 @@ import PhoneDark from '../components/devices/PhoneDark.jsx';
 import Nav from '../components/Nav.jsx';
 import EmblaCarousel from '../components/carousel/Carousel.jsx';
 import CarouselSlide from '../components/carousel/CarouselSlide.jsx';
+import { Link } from 'react-router-dom';
 
 export default function AUX() {
   const features = [
@@ -331,6 +332,14 @@ export default function AUX() {
             project deepened my skills in empathetic design and reinforced the power of storytelling
             in building meaningful digital experiences.
           </p>
+        </div>
+        <div className="flex items-center">
+          <Link
+            to="/case-studies/atm/"
+            className="text-gray-600 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-black bg-white-100"
+          >
+           Next:  Answer the Moment
+          </Link>
         </div>
       </section>
     </>
