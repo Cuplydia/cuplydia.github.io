@@ -336,9 +336,9 @@ export default function AUX() {
         <div className="flex items-center">
           <Link
             to="/case-studies/atm/"
-            className="text-gray-600 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-black bg-white-100"
+            className="text-gray-600 hover:text-blue-400 px-3 py-2 rounded-md text-lg font-black bg-white-100"
           >
-           Next:  Answer the Moment
+           Next:  Answer the Moment 
           </Link>
         </div>
       </section>

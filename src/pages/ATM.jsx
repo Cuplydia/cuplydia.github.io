@@ -543,7 +543,7 @@ export default function ATM() {
         <div className="flex items-center">
           <Link
             to="/case-studies/cne/"
-            className="text-gray-600 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-black bg-white-100"
+            className="text-gray-600 hover:text-blue-400 px-3 py-2 rounded-md text-lg font-black bg-white-100"
           >
             Next:  Childcare Network of Evanston
           </Link>
